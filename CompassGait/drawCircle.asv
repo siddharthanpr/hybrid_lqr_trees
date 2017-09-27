@@ -1,0 +1,7 @@
+function [ output_args ] = drawCircle( input_args )
+%DRAWCIRCLE Summary of this function goes here
+%   Detailed explanation goes here
+t = 0:.1:2*pi;
+fill(2*sin(t),2*cos(t),[1 0 0])
+end
+
